@@ -4,10 +4,11 @@
 }
 body {
     min-width: 1680px; 
+    height: 100%;
 }
 .container {
+    max-width: 1680px;
     height: fit-content;
-    /* background: #1C2826; */
     display: flex;
     align-items: center;
     justify-content: space-between;
