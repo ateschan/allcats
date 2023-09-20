@@ -2,9 +2,9 @@
 
 A simple webpage, following the guidelines given by the odin-project bootcamp.
 
-## Description
+## What is this?
 
-This webpage slightly deviates from the example given by the odin project. 
+This webpage is a small project that gives me a refresher on html and css. It incorperates flexboxes in several different ways to accomplish this task.
 
 ## Usage
 
