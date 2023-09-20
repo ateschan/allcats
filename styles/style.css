@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    min-width: 1680px; 
+}
+.container {
+    height: fit-content;
+    /* background: #1C2826; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.item {
+    width: 70%;
+    height: 70%;
+    background: #D64550;
+    border-radius: 25px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+#webheader-section{
+    height: 450px;
+    background-color: #FFC482;
+    justify-content: space-around;
+}
+
+#header{
+    width: 70%;
+    height: 10%;
+    background-color: #FFC482;
+    display: flex;
+    align-items: flex-end;
+    align-content: end;
+}
+
+
+#header-content{
+    height: 60%;
+    display: flex;
+}
+ 
+#info-section{
+    height: 450px;
+    justify-content: space-around;
+    background-color:#CFB499;
+}
+
+#quote-section {
+    height: 350px;
+    justify-content: space-around;
+    background-color:#75372C;
+}
+
+
+#product-signup-section{
+    justify-content: space-around;
+    height: 250px;
+    background-color:#493029;
+}
+
+#product-signup-section .item{
+    width: 60%;
+}
+
+#webfooter-section {
+    justify-content: space-around;
+    height: 70px;
+    background-color:#FFC482;
+}
+
+#webfooter-section .item{
+    width: 10%;
+}
+
+.button-1 {
+    margin-top: 7%;
+    width: 380px;
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+  }
+  
+  .button-1:hover,
+  .button-1:focus {
+    background-color: #F082AC;
+  }
